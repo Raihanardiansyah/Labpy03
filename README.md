@@ -91,3 +91,23 @@ Program meminta input jumlah n.
 Menghasilkan angka acak hingga mencapai n angka yang memenuhi syarat < 0.5.
 
 Setiap angka yang memenuhi syarat ditampilkan, dan setelah n angka tercapai, program selesai.
+
+### Latihan 2
+
+### Program dari latihan 2
+
+![Gambar1](https://github.com/Raihanardiansyah/Labpy03/blob/main/foto/program2.png?raw=true)
+
+### Dan ini untuk hasil dari program tersebut
+
+![Gambar1](https://github.com/Raihanardiansyah/Labpy03/blob/main/foto/hasil2.png?raw=true)
+
+### Latihan 3
+
+### Program dari latihan 3
+
+![Gambar1](https://github.com/Raihanardiansyah/Labpy03/blob/main/foto/program3.png?raw=true)
+
+### Dan ini untuk hasil dari program tersebut
+
+![Gambar1](https://github.com/Raihanardiansyah/Labpy03/blob/main/foto/hasil3.png?raw=true)
