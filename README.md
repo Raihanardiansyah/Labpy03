@@ -102,6 +102,86 @@ Setiap angka yang memenuhi syarat ditampilkan, dan setelah n angka tercapai, pro
 
 ![Gambar1](https://github.com/Raihanardiansyah/Labpy03/blob/main/foto/hasil2.png?raw=true)
 
+### Berikut penjelasan dari program tersebut
+
+### 1. Deklarasi Modal Awal dan Total Keuntungan
+
+modal_awal = 100_000_000 menetapkan modal awal sebesar 100 juta.
+
+total_keuntungan = 0 menginisialisasi variabel total_keuntungan untuk menyimpan akumulasi keuntungan dari bulan pertama hingga bulan kedelapan.
+
+
+
+### 2. Loop untuk Menghitung Keuntungan Setiap Bulan
+
+for bulan in range(1, 9): adalah loop for yang berjalan dari 1 hingga 8 (karena range(1, 9) menghasilkan nilai dari 1 hingga 8), yang mewakili bulan ke-1 hingga bulan ke-8.
+
+### 3. Menghitung Keuntungan Berdasarkan Bulan
+
+Di dalam loop, terdapat beberapa kondisi if-elif untuk menentukan besaran keuntungan pada setiap bulan:
+
+Bulan 1 dan 2: if bulan in [1, 2] - Belum ada keuntungan, jadi keuntungan = 0.
+
+Bulan 3 dan 4: elif bulan in [3, 4] - Mulai mendapat keuntungan 1% dari modal awal, jadi keuntungan = modal_awal * 0.01.
+
+Bulan 5, 6, dan 7: elif bulan in [5, 6, 7] - Keuntungan meningkat menjadi 5% dari modal awal, jadi keuntungan = modal_awal * 0.05.
+
+Bulan 8: elif bulan == 8 - Keuntungan menurun menjadi 3% dari modal awal, jadi keuntungan = modal_awal * 0.03.
+
+### 4. Menambahkan Keuntungan ke Total Keuntungan
+
+total_keuntungan += keuntungan menambahkan nilai keuntungan yang diperoleh di bulan tersebut ke total_keuntungan.
+
+### 5. Mencetak Keuntungan Bulanan
+
+print(f"laba bulan ke-{bulan} sebesar: {keuntungan}") menampilkan keuntungan setiap bulan sesuai urutan.
+
+6. Menampilkan Total Keuntungan Setelah 8 Bulan
+
+Setelah loop selesai, print(f"Total laba adalah: {total_keuntungan}") menampilkan total keuntungan yang diperoleh selama 8 bulan.
+
+### Alur Eksekusi
+
+Program mulai dengan modal awal sebesar 100 juta dan menghitung keuntungan setiap bulan selama 8 bulan.
+
+Berdasarkan ketentuan keuntungan setiap bulan, program menambah keuntungan bulanan ke total_keuntungan.
+
+Program mencetak keuntungan setiap bulan dan, pada akhirnya, mencetak total keuntungan setelah 8 bulan.
+
+### Output Contoh
+
+Output program ini akan sesuai dengan aturan yang diberikan:
+
+laba bulan ke-1 sebesar: 0
+
+laba bulan ke-2 sebesar: 0
+
+laba bulan ke-3 sebesar: 1000000.0
+
+laba bulan ke-4 sebesar: 1000000.0
+
+laba bulan ke-5 sebesar: 5000000.0
+
+laba bulan ke-6 sebesar: 5000000.0
+
+laba bulan ke-7 sebesar: 5000000.0
+
+laba bulan ke-8 sebesar: 3000000.0
+
+Total laba adalah: 19000000.0
+
+### Rincian Keuntungan Bulanan
+
+Bulan 1 & 2: Tidak ada keuntungan.
+
+Bulan 3 & 4: 1% dari 100 juta = 1 juta per bulan.
+
+Bulan 5, 6 & 7: 5% dari 100 juta = 5 juta per bulan.
+
+Bulan 8: 3% dari 100 juta = 3 juta.
+
+### Total keuntungan selama 8 bulan = 19 juta.
+
 ### Latihan 3
 
 ### Program dari latihan 3
