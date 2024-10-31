@@ -191,3 +191,50 @@ Bulan 8: 3% dari 100 juta = 3 juta.
 ### Dan ini untuk hasil dari program tersebut
 
 ![Gambar1](https://github.com/Raihanardiansyah/Labpy03/blob/main/foto/hasil3.png?raw=true)
+
+### Berikut penjelasan dari prongram tersebut:
+
+Program ini adalah simulasi sederhana dari sebuah mesin ATM yang memiliki dua opsi: untuk menarik uang atau keluar dari program. Berikut adalah penjelasan kode program ini:
+
+### 1. Inisialisasi Saldo:
+
+saldo = 1000000
+
+Variabel saldo diset awalnya dengan nilai 1.000.000, yang merepresentasikan saldo awal pada akun pengguna.
+
+### 2. Fungsi tampilkan_menu():
+
+Fungsi ini menampilkan menu kepada pengguna dengan pilihan untuk "Tarik Uang" atau "Keluar". Fungsi ini juga menampilkan saldo saat ini.
+
+### 3. Loop while True:
+
+Program berjalan dalam loop while True, yang berarti akan terus berjalan hingga pengguna memilih untuk keluar.
+
+
+### 4. Input Pilihan Pengguna:
+
+Pengguna diminta untuk memasukkan pilihan mereka, yaitu "1" untuk tarik uang atau "2" untuk keluar.
+
+### 5. Logika Pilihan:
+
+Jika Pilihan "1" (Tarik Uang):
+
+Pengguna akan diminta memasukkan jumlah uang yang ingin ditarik.
+
+Validasi:
+
+Jika jumlah yang diminta lebih besar dari saldo, program akan menampilkan pesan "Saldo tidak cukup!".
+
+Jika jumlah kurang dari atau sama dengan 0, program akan menampilkan "Jumlah penarikan tidak valid!".
+
+Jika valid, saldo akan dikurangi dengan jumlah yang ditarik, dan menampilkan pesan "Penarikan berhasil!".
+
+Jika input bukan angka (misalnya huruf), program akan menangkap ValueError dan menampilkan "Input tidak valid! Masukkan angka."
+
+Jika Pilihan "2" (Keluar):
+
+Program akan menampilkan pesan "Terima kasih telah menggunakan ATM!" dan mengakhiri loop dengan break.
+
+Jika Pilihan Tidak Valid:
+
+Jika input pilihan tidak sama dengan "1" atau "2", program akan menampilkan "Pilihan tidak valid! Silakan coba lagi."
